@@ -1,0 +1,13 @@
+{ service: 'user-service',
+  _original:
+   [Object: null prototype] { products: 'p4', userId: '1', userEmail: '', address: 'tr' },
+  details:
+   [ { message: '"userEmail" is not allowed to be empty',
+       path: [ 'userEmail' ],
+       type: 'string.empty',
+       context: { label: 'userEmail', value: '', key: 'userEmail' } } ],
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'Order data are not correct:  "userEmail" is not allowed to be empty',
+  stack: 'ValidationError: "userEmail" is not allowed to be empty',
+  timestamp: '2020-12-12T21:25:49.263Z' }

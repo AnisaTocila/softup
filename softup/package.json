@@ -1,0 +1,22 @@
+{
+  "name": "softup",
+  "version": "1.0.0",
+  "description": "coding test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devstart": "nodemon server.js"
+  },
+  "author": "anisa tocila",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.809.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.11.7",
+    "nodemon": "^2.0.6",
+    "sqs-producer": "^2.1.0",
+    "winston": "^3.3.3"
+  }
+}
